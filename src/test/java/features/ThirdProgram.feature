@@ -13,10 +13,3 @@ When user login to the application with "User" and password 1234
 Then Home page is displayed
 And Cards are displayed
 
-@RegressionTest @SmokeTest @Mortgage
-Scenario Outline: mortgage user page default login 
-
-Given User is on NetBanking landing page
-When user login to the application with "<username>" and password "<password>"
-Then Home page is displayed
-And Cards are displayed
